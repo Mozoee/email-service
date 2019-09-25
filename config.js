@@ -2,7 +2,7 @@ module.exports = {
     sendGrid : {
         url: 'https://api.sendgrid.com/v3/mail/send',
         headers: {
-            "Authorization": "Bearr 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",
+            "Authorization": "Bearer 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",
         },
     },
     mailGun : {

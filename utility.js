@@ -19,8 +19,6 @@ function mailGunEmailFormatter(emailObject){
     }
     return emailCommaSeparated;
 }
-   
-
 }
 
 function validateSchema(value, schema, options) {
