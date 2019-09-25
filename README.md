@@ -34,6 +34,27 @@ Second, navigate to the root folder of the app and run `node app.js` on command 
 
 Third, to run the test make sure to install all the dev dependencies (npm install --only=dev)  then run `npm test` on command line.
 
+# Expected input
+`
+{
+    "from" : {
+        "email": "test@hotmail.com",
+        "name" : "Mr. ABC"
+    },
+    "to" : [{
+        "email": "test@gmail.com",
+        "name" : "MR. XYZ"
+    }
+    ],
+    cc: [{same as to}],
+    bcc: [{same as to}],
+    "subject": "Test email",
+    "message": "Heya! test time."
+
+}
+ `
+
+
 
 
 
